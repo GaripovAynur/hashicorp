@@ -1,0 +1,2 @@
+consul operator raft list-peers #Получить информацию о работе raft и текущем лидере
+consul operator raft transfer-leader -id="server id" #Перенести роль лидера на другую ноду
